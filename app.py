@@ -3,7 +3,7 @@ import datetime as dt
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
-TARGET = os.environ.get("CHECKUP_CSV", "/checkup/data.csv")
+TARGET = os.environ.get("CHECKUP_CSV", "/checkin/data.csv")
 
 
 def respond(message):
